@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "name": "My_Lerna",
+  "scripts": {
+    "start": "lerna run start",
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  }
+}
